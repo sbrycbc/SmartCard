@@ -95,8 +95,8 @@
     backface-visibility: hidden;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
     padding: 20px;
-    transition: 400ms all ease-in-out;
-    transform: perspective(1000px) rotateY('0deg');    
+    transition: 400ms all ease-out;
+    transform: perspective(1000px) rotateY(0deg);    
 }
 
 .container .card-container .front .image {
@@ -141,11 +141,11 @@
         #181719);
     border-radius: 5px;
     padding: 20px 0px;
-    transition: 400ms all ease-in-out;
+    transition: 400ms all ease-out;
     text-align:right;
     backface-visibility: hidden;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
-    transform: perspective(1000) rotateY(180);
+    transform: perspective(1000px) rotateY(180);
 }
 
 .container .card-container .back .box {
